@@ -1,6 +1,19 @@
 const data = [
   {
     id: 1,
+    title: "Portafolio Personal",
+    image: "/images/projects/portfolio-web.png",
+    description:
+      "Development of my personal portfolio website with NextJS and TailwindCSS",
+    skills: [
+      { id: 1, name: "NextJS", image: "/images/skills/next-js.png" },
+      { id: 2, name: "tailwindCSS", image: "/images/skills/tailwind.png" },
+    ],
+    source_code: "https://github.com/guillermocalle/my-portfolio",
+    demo: "https://guillermocalle.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Tienda Ivet",
     image: "/images/projects/project-1-tienda-ivet.png",
     description:
