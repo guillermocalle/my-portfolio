@@ -4,7 +4,7 @@ const data = [
     title: "Portafolio Personal",
     image: "/images/projects/portfolio-web.png",
     description:
-      "Development of my personal portfolio website with NextJS and TailwindCSS",
+      "Desarrollo de un portafolio personal con NextJS y TailwindCSS, enfocado en un diseño responsivo y moderno.",
     skills: [
       { id: 1, name: "NextJS", image: "/images/skills/next-js.png" },
       { id: 2, name: "tailwindCSS", image: "/images/skills/tailwind.png" },

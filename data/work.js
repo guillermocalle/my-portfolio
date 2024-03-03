@@ -37,7 +37,7 @@ const data = [
     id: 2,
     image: "/images/work/logo-academia-ovp.png",
     company: "Academia OVP",
-    role: "Pasante",
+    role: "Becario",
     type: "remoto",
     date: "03/2023 - 03/2024",
     skills: [
