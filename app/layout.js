@@ -4,8 +4,7 @@ import DarkLight from "@/components/DarkLight";
 
 export const metadata = {
   title: "Guillermo Calle | Portfolio",
-  description:
-    "My name is Guillermo Calle, I'm Web Developer & System Engineer",
+  description: "Mi nombre es Guillermo, soy Desarrollador Web.",
 };
 
 export default function RootLayout({ children }) {
