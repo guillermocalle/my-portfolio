@@ -14,7 +14,7 @@ const DarkLight = () => {
     >
       <span
         className={classNames(
-          "w-7 h-7 flex items-center justify-center bg-violet-700 rounded-full transition-all duration-500",
+          "w-7 h-7 flex items-center justify-center bg-indigo-700 rounded-full transition-all duration-500",
           {
             "ml-5": theme === "dark",
           }

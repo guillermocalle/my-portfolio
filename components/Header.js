@@ -19,7 +19,7 @@ const Header = () => {
         />
       </div>
       <div className="flex-1">
-        <h1 className="text-4xl md:text-5xl font-black capitalize text-violet-700 dark:text-white">
+        <h1 className="text-4xl md:text-5xl font-black capitalize text-indigo-700 dark:text-white">
           {name}
         </h1>
         <h3 className="mt-2 text-lg md:text-xl font-semibold md:font-bold capitalize dark:text-zinc-400">
@@ -29,7 +29,7 @@ const Header = () => {
           <HeaderInfo
             Icon={
               <FaMapMarkerAlt
-                className="text-violet-700 dark:text-zinc-400"
+                className="text-indigo-700 dark:text-zinc-400"
                 size={16}
               />
             }
@@ -38,7 +38,7 @@ const Header = () => {
           <HeaderInfo
             Icon={
               <IoIosSchool
-                className="text-violet-700 dark:text-zinc-400"
+                className="text-indigo-700 dark:text-zinc-400"
                 size={16}
               />
             }
