@@ -1,8 +1,6 @@
-"use client";
 import data from "@/data/header";
 import Image from "next/image";
 import { FaMapMarkerAlt } from "react-icons/fa";
-import { BsTerminalFill } from "react-icons/bs";
 import { IoIosSchool } from "react-icons/io";
 import HeaderInfo from "./HeaderInfo";
 
@@ -14,17 +12,18 @@ const Header = () => {
         <Image
           src={image}
           fill
-          alt="profile image"
-          className="w-full h-full object-cover hover:scale-125 hover:rotate-12 transition-all duration-500"
+          sizes="(min-width: 768px) 150px, 200px"
+          alt={`Fotografía de ${name}`}
+          className="w-full h-full object-cover hover:scale-125 hover:rotate-12 transition-all duration-500 motion-reduce:transition-none motion-reduce:hover:scale-100 motion-reduce:hover:rotate-0"
         />
       </div>
       <div className="flex-1">
         <h1 className="text-4xl md:text-5xl font-black capitalize text-indigo-700 dark:text-white">
           {name}
         </h1>
-        <h3 className="mt-2 text-lg md:text-xl font-semibold md:font-bold capitalize dark:text-zinc-400">
+        <p className="mt-2 text-lg md:text-xl font-semibold md:font-bold capitalize dark:text-zinc-400">
           {jobTitle}
-        </h3>
+        </p>
         <div className="flex flex-wrap items-center gap-y-1 gap-x-4 mt-2">
           <HeaderInfo
             Icon={

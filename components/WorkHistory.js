@@ -14,13 +14,15 @@ const WorkHistory = () => {
             <Image
               src={work.image}
               fill
+              sizes="50px"
+              alt=""
               className="w-full h-full object-cover"
             />
           </div>
           <div className="flex-1">
-            <h2 className="text-black dark:text-white capitalize font-bold text-base">
+            <h3 className="text-black dark:text-white capitalize font-bold text-base">
               {work.role}
-            </h2>
+            </h3>
             <span className="capitalize text-sm font-bold text-zinc-500">
               {work.company}
             </span>
@@ -41,7 +43,7 @@ const WorkHistory = () => {
               </div>
             )}
             {work.options && (
-              <div className="mt-4">
+              <ul className="mt-4 list-disc">
                 {work?.options?.map((option, key) => (
                   <li
                     key={key}
@@ -50,7 +52,7 @@ const WorkHistory = () => {
                     {option}
                   </li>
                 ))}
-              </div>
+              </ul>
             )}
           </div>
         </div>
