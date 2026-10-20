@@ -1,61 +1,57 @@
 const data = [
   {
     id: 1,
-    image: "/images/work/logo-compumas.png",
-    company: "Compumas Bolivia",
-    role: "Pasante",
-    type: "Presencial",
-    date: "12/2023 - 03/2024",
+    image: "/images/work/worthit-logo.png",
+    company: "WorthIT",
+    role: "Desarrollador Web Trainee",
+    type: "Remoto",
+    date: "09/2024 - 11/2025",
     skills: [
       {
         id: 1,
-        name: "HTML",
-        image: "/images/skills/html5.png",
+        name: "Laravel",
+        image: "/images/skills/laravel.svg",
       },
       {
         id: 2,
-        name: "CSS",
-        image: "/images/skills/css3.png",
+        name: "PHP",
+        image: "/images/skills/php.svg",
       },
       {
         id: 3,
-        name: "JavaScript",
-        image: "/images/skills/javascript.png",
+        name: "PostgreSQL",
+        image: "/images/skills/postgresql.svg",
       },
       {
         id: 4,
-        name: "Bootstrap",
-        image: "/images/skills/bootstrap.png",
+        name: "HTML",
+        image: "/images/skills/html.svg",
+      },
+      {
+        id: 5,
+        name: "CSS",
+        image: "/images/skills/css.svg",
+      },
+      {
+        id: 6,
+        name: "JavaScript",
+        image: "/images/skills/javascript.svg",
+      },
+      {
+        id: 7,
+        name: "WordPress",
+        image: "/images/skills/wordpress.svg",
+      },
+      {
+        id: 8,
+        name: "Webflow",
+        image: "/images/skills/webflow.svg",
       },
     ],
     options: [
-      "Desarrollar y mantener página web con tecnologías HTML, CSS, JavaScript, Bootstrap.",
-      "Apoyar al área de marketing con el manejo de redes sociales.",
-    ],
-  },
-  {
-    id: 2,
-    image: "/images/work/logo-academia-ovp.png",
-    company: "Academia OVP",
-    role: "Becario",
-    type: "remoto",
-    date: "03/2023 - 03/2024",
-    skills: [
-      {
-        id: 1,
-        name: "Power BI",
-        image: "/images/skills/power-bi.png",
-      },
-      {
-        id: 2,
-        name: "Excel",
-        image: "/images/skills/excel.png",
-      },
-    ],
-    options: [
-      "Diseño de tableros de control financieros con Power BI.",
-      "Análisis de patrones y tendencias en conjuntos de datos.",
-      "Revisión de la calidad de datos para el aspecto de migración de datos.",
+      "Desarrollo de una API REST para la gestión de pagos de servicios con Laravel y PostgreSQL, siguiendo una arquitectura en capas.",
+      "Implementación de autenticación con JWT y elaboración de pruebas unitarias y de integración para la API.",
+      "Personalización de sitios web en WordPress y Webflow mediante HTML y CSS, con ajustes puntuales en PHP y JavaScript según la plataforma.",
     ],
   },
 ];

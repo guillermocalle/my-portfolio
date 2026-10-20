@@ -83,31 +83,46 @@ const Modal = ({ state, details, toggleModal }) => {
                 <SkillComponent skill={skill} key={skill.id} />
               ))}
             </div>
-            <div className="flex flex-wrap items-center gap-3 mt-3">
-              <Link
-                href={details.source_code}
-                target="_blank"
-                className="flex items-center space-x-2 bg-zinc-100 dark:bg-zinc-800 px-3 py-2 hover:text-black hover:dark:text-white"
-              >
-                <FaGithub size={18} className="text-black dark:text-white" />
-                <span className="text-sm md:text-base capitalize text-zinc-700 dark:text-white font-bold">
-                  source code
-                </span>
-              </Link>
-              <Link
-                href={details.demo}
-                target="_blank"
-                className="flex items-center space-x-2 bg-zinc-100 dark:bg-zinc-800 px-3 py-2 hover:text-black hover:dark:text-white"
-              >
-                <TfiWorld size={18} className="text-black dark:text-white" />
-                <span className="text-sm md:text-base capitalize text-zinc-700 dark:text-white font-bold">
-                  demo
-                </span>
-              </Link>
-            </div>
-            <p className="text-base font-medium text-zinc-700 dark:text-zinc-400 leading-[20px] mt-6">
-              {details.description}
-            </p>
+            {(details.source_code || details.demo) && (
+              <div className="flex flex-wrap items-center gap-3 mt-3">
+                {details.source_code && (
+                  <Link
+                    href={details.source_code}
+                    target="_blank"
+                    className="flex items-center space-x-2 bg-zinc-100 dark:bg-zinc-800 px-3 py-2 hover:text-black hover:dark:text-white"
+                  >
+                    <FaGithub size={18} className="text-black dark:text-white" />
+                    <span className="text-sm md:text-base capitalize text-zinc-700 dark:text-white font-bold">
+                      source code
+                    </span>
+                  </Link>
+                )}
+                {details.demo && (
+                  <Link
+                    href={details.demo}
+                    target="_blank"
+                    className="flex items-center space-x-2 bg-zinc-100 dark:bg-zinc-800 px-3 py-2 hover:text-black hover:dark:text-white"
+                  >
+                    <TfiWorld size={18} className="text-black dark:text-white" />
+                    <span className="text-sm md:text-base capitalize text-zinc-700 dark:text-white font-bold">
+                      demo
+                    </span>
+                  </Link>
+                )}
+              </div>
+            )}
+            {details.description && (
+              <p className="text-base font-medium text-zinc-700 dark:text-zinc-400 leading-[20px] mt-6">
+                {details.description}
+              </p>
+            )}
+            {details.options?.length > 0 && (
+              <ul className="text-base font-medium text-zinc-700 dark:text-zinc-400 leading-[20px] mt-6 list-disc pl-5">
+                {details.options.map((option, index) => (
+                  <li key={index}>{option}</li>
+                ))}
+              </ul>
+            )}
           </div>
         </div>
       </div>

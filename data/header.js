@@ -1,7 +1,7 @@
 const data = {
   image: "/images/profile.png",
   name: "guillermo calle",
-  jobTitle: "desarrollador web",
+  jobTitle: "desarrollador backend",
   address: "cochabamba, bolivia",
   education: "ingeniería de sistemas",
 };

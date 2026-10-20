@@ -8,20 +8,20 @@ const data = [
   {
     id: 2,
     name: "linkedin",
-    label: "linkedin",
-    link: "https://www.linkedin.com/in/guillermocp/",
+    label: "linkedIn",
+    link: "https://www.linkedin.com/in/guillermocallep/",
   },
   {
     id: 3,
     name: "email",
     label: "email",
-    link: "mailto:guillermo.calle.info@gmail.com",
+    link: "mailto:guillermo.calle.pinto@gmail.com",
   },
   {
     id: 4,
     name: "cv",
     label: "descargar CV",
-    link: "/files/Guillermo_Calle_CV.pdf",
+    link: "/files/Guillermo-Calle-CV.pdf",
   },
 ];
 

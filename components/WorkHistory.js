@@ -10,13 +10,13 @@ const WorkHistory = () => {
       <Heading>Experiencia</Heading>
       {data.map((work) => (
         <div className="mt-6 flex gap-x-6" key={work.id}>
-          <div className="relative w-[50px] h-[50px] rounded-full overflow-hidden border dark:border-zinc-700">
+          <div className="relative w-[50px] h-[50px] shrink-0 rounded-full overflow-hidden">
             <Image
               src={work.image}
               fill
               sizes="50px"
               alt=""
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain object-center"
             />
           </div>
           <div className="flex-1">

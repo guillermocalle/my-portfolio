@@ -1,29 +1,22 @@
 const data = [
   {
     id: 1,
-    title: "Portafolio Personal",
-    image: "/images/projects/portfolio-web.png",
-    description:
-      "Desarrollo de un portafolio personal con NextJS y TailwindCSS, enfocado en un diseño responsivo y moderno.",
-    skills: [
-      { id: 1, name: "NextJS", image: "/images/skills/next-js.png" },
-      { id: 2, name: "tailwindCSS", image: "/images/skills/tailwind.png" },
+    title: "Savupoint",
+    image: "/images/projects/savupoint01.png",
+    options: [
+      "Desarrollo de un sistema POS para restaurantes con gestión de sucursales, pedidos, mesas, cocina, caja, pagos y reportes.",
+      "Implementación de una API REST con arquitectura en capas, autenticación JWT y control de acceso por roles y permisos.",
+      "Uso de transacciones para operaciones de pagos y stock, con pruebas automatizadas de lógica de negocio y autorización.",
     ],
-    source_code: "https://github.com/guillermocalle/my-portfolio",
-    demo: "https://guillermocalle.vercel.app/",
-  },
-  {
-    id: 2,
-    title: "Tienda Ivet",
-    image: "/images/projects/project-1-tienda-ivet.png",
-    description:
-      "Desarrollo de un sitio web para una tienda de venta de ropa y accesorios, utilizando tecnologías de desarrollo Front-end como React.js y TailwindCSS, con un diseño adaptable a diferentes dispositivos.",
     skills: [
-      { id: 1, name: "reactJS", image: "/images/skills/react.png" },
-      { id: 2, name: "tailwindCSS", image: "/images/skills/tailwind.png" },
+      { id: 1, name: "Laravel", image: "/images/skills/laravel.svg" },
+      { id: 2, name: "PHP", image: "/images/skills/php.svg" },
+      { id: 3, name: "PostgreSQL", image: "/images/skills/postgresql.svg" },
+      { id: 4, name: "VueJS", image: "/images/skills/vue.svg" },
+      { id: 5, name: "Vuetify", image: "/images/skills/vuetify.svg" },
+      { id: 6, name: "TypeScript", image: "/images/skills/typescript.svg" },
     ],
-    source_code: "https://github.com/guillermocalle/ecommerce-web",
-    demo: "https://tiendaivet.vercel.app/",
+    demo: "https://demo.alurcap.com/login",
   },
 ];
 

@@ -1,6 +1,6 @@
 const data = {
   heading: "Hola!",
-  bio: "Soy egresado en ingeniería en sistemas, me especializo en desarrollo web, he trabajado en proyectos personales y universitarios, desarrollando páginas web, aplicaciones web, con distintas tecnologías de Front-end y Back-end, soy autodidacta, dispuesto a trabajar con diferentes tecnologías y con el compromiso de contribuir a su empresa.",
+  bio: "Egresado de Ingeniería de Sistemas, enfocado en desarrollo Backend con PHP, Laravel y PostgreSQL. Experiencia práctica en el desarrollo de APIs, implementación de lógica de negocio y gestión de bases de datos relacionales, con autenticación, control de acceso y pruebas automatizadas.",
 };
 
 export default data;

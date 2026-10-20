@@ -45,6 +45,8 @@ La comprobación de producción verifica el HTML inicial, el orden de las seccio
 - `data/`: contenido editable de la página.
 - `public/`: imágenes y currículum.
 
+Los trece iconos SVG usados en habilidades, proyectos y experiencia se exportaron de Simple Icons incluido en `react-icons` 5.0.1, sin añadir dependencias. Fuente: [React Icons](https://github.com/react-icons/react-icons) y [Simple Icons](https://github.com/simple-icons/simple-icons), licencia [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Son recursos locales sin scripts ni referencias externas; las marcas pertenecen a sus respectivos titulares. HTML y CSS utilizan los símbolos HTML5 y CSS3 de esa colección.
+
 No se requieren variables de entorno para las funcionalidades actuales. Los archivos `.env*` se excluyen de Git, salvo `.env.example`. No incluir credenciales en `data/`, recursos públicos ni variables `NEXT_PUBLIC_*`.
 
 ## Reproducibilidad y seguridad
